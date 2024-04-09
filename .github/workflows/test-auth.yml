@@ -1,6 +1,6 @@
 name: Single Instance With Auth
 
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   single-instance-with-auth:
